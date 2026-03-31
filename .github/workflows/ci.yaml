@@ -27,7 +27,7 @@ jobs:
 
       - name: Run flake8 linter
         run: 
-             flake8 calculator2.py test.calculator.py --max-line-length=88 --extend-ignore=E203
+             flake8 calculator2.py test_calculator.py --max-line-length=88 --extend-ignore=E203
 
       - name: Run tests
         if: success() 
